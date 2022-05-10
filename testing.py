@@ -12,6 +12,7 @@ from sorting import selection_sort
 from sorting import bubble_opt
 from sorting import insertion_sort
 from searching import linearsearch
+from searching import binarysearch
 
 A=[1,3,5,7,9]
 B=[2,4,6,8,10]
@@ -30,3 +31,4 @@ list=[4,1,9,8,6,10]
 # print(bubble_opt.bubble_sort_opt(list))
 #print(insertion_sort.insertion_sort(list))
 print(linearsearch.busqueda(A,5))
+print(binarysearch.binary_search(A,5))
