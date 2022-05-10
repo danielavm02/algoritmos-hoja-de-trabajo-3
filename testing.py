@@ -10,6 +10,7 @@ from recursion import countdown
 from sorting import bubble_sort
 from sorting import selection_sort
 from sorting import bubble_opt
+from sorting import insertion_sort
 
 A=[1,3,5,7,9]
 B=[2,4,6,8,10]
@@ -24,5 +25,6 @@ B=[2,4,6,8,10]
 # countdown.cuenta(10)
 list=[4,1,9,8,6,10]
 # print(bubble_sort.bubble_sort(list))
-print(selection_sort.selection_sort(list))
-print(bubble_opt.bubble_sort_opt(list))
+# print(selection_sort.selection_sort(list))
+# print(bubble_opt.bubble_sort_opt(list))
+print(insertion_sort.insertion_sort(list))
