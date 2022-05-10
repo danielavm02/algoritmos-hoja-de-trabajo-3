@@ -7,6 +7,7 @@ from recursion import sum_of_n
 from recursion import fibonacci
 from recursion import factorial
 from recursion import countdown
+from sorting import bubble_sort
 
 A=[1,3,5,7,9]
 B=[2,4,6,8,10]
@@ -19,3 +20,5 @@ B=[2,4,6,8,10]
 # print(fibonacci.fibonacci(10))
 #print (factorial.fact(5))
 countdown.cuenta(10)
+list=[4,1,9,8]
+print(bubble_sort.bubble_sort(list))
