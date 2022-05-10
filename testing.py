@@ -4,7 +4,7 @@ from bruteforce import sum_numbers
 from bruteforce import pin_unlock
 from bruteforce import divisores_n
 from recursion import sum_of_n
-
+from recursion import fibonacci
 
 A=[1,3,5,7,9]
 B=[2,4,6,8,10]
@@ -14,3 +14,4 @@ B=[2,4,6,8,10]
 # print(pin_unlock.unlock("2812"))
 print(" Divisores: " + str(divisores_n.divisores(9)))
 print(sum_of_n.sum(30))
+print(fibonacci.fibonacci(10))
