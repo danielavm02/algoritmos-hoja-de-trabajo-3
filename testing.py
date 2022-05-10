@@ -1,5 +1,7 @@
-
 from lists import maximo
+from lists import list_merge
 
-A=[1,2,3,4,5]
+A=[1,3,5,7,9]
+B=[2,4,6,8,10]
 maximo.maximo(A)
+print(list_merge.juntar(A,B))
